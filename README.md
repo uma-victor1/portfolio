@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ff80ae9a-c542-49bf-a8ab-876a94318bab/deploy-status)](https://app.netlify.com/sites/umavictor/deploys)
+
 # portfolio
 
 ## Build Setup
