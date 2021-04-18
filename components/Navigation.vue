@@ -1,31 +1,31 @@
 <template>
 	<div>
 		<header>
-			<nav class="bg-white px-8 pt-2 shadow-md">
+			<nav class="px-8 pt-2">
 				<div class="-mb-px flex justify-center">
 					<NuxtLink
 						class="no-underline text-teal-dark border-b-2 border-teal-dark uppercase tracking-wide font-bold text-xs py-3 mr-8"
-						href="#"
+						to="#"
 					>
-						Home
+						<img class="w-16" src="~/assets/NavigationIcons/home.svg" />
 					</NuxtLink>
 					<NuxtLink
 						class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8"
-						href="#"
+						to="#"
 					>
-						Products
+						<img class="w-16" src="~/assets/NavigationIcons/document.svg" />
 					</NuxtLink>
 					<NuxtLink
 						class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8"
-						href="#"
+						to="#"
 					>
-						Discounts
+						<img class="w-16" src="~/assets/NavigationIcons/writing.svg" />
 					</NuxtLink>
 					<NuxtLink
 						class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3"
-						href="#"
+						to="#"
 					>
-						Customers
+						<img class="w-16" src="~/assets/NavigationIcons/message.svg" />
 					</NuxtLink>
 				</div>
 			</nav>

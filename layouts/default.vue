@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="m-auto max-w-screen-lg py-16">
 		<Navigation />
 		<div><Nuxt /></div>
 	</div>
