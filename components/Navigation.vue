@@ -7,25 +7,25 @@
 						class="no-underline text-teal-dark border-b-2 border-teal-dark uppercase tracking-wide font-bold text-xs py-3 mr-8"
 						to="/"
 					>
-						<img class="w-16" src="~/assets/NavigationIcons/home.svg" />
+						<img class="w-12" src="~/assets/NavigationIcons/home.svg" />
 					</NuxtLink>
 					<NuxtLink
 						class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8"
 						to="/works"
 					>
-						<img class="w-16" src="~/assets/NavigationIcons/folder.svg" />
+						<img class="w-12" src="~/assets/NavigationIcons/folder.svg" />
 					</NuxtLink>
 					<NuxtLink
 						class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8"
 						to="blog"
 					>
-						<img class="w-16" src="~/assets/NavigationIcons/edit.svg" />
+						<img class="w-12" src="~/assets/NavigationIcons/message.svg" />
 					</NuxtLink>
 					<NuxtLink
 						class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3"
 						to="contact"
 					>
-						<img class="w-16" src="~/assets/NavigationIcons/mail.svg" />
+						<img class="w-12" src="~/assets/NavigationIcons/mail.svg" />
 					</NuxtLink>
 				</div>
 			</nav>

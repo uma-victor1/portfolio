@@ -1,7 +1,7 @@
 <template>
 	<div class="nav m-auto max-w-screen-lg py-16">
 		<Navigation />
-		<div class="w-3/4 m-auto bg-gray-200"><Nuxt /></div>
+		<div class="w-3/4 m-auto bg-white"><Nuxt /></div>
 	</div>
 </template>
 
