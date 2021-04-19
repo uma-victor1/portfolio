@@ -25,16 +25,10 @@
 		margin: 0;
 	}
 	body {
-		background: #000000; /* fallback for old browsers */
-		background: -webkit-linear-gradient(
-			to left,
-			#434343,
-			#000000
-		); /* Chrome 10-25, Safari 5.1-6 */
-		background: linear-gradient(
-			to left,
-			#434343,
-			#000000
-		); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		background-image: url('../assets/bg.jpg');
+		background-repeat: repeat, no-repeat;
+		background-size: auto, 100% 100%;
+		background-attachment: fixed;
+		overflow-y: scroll;
 	}
 </style>

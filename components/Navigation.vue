@@ -13,19 +13,19 @@
 						class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8"
 						to="/works"
 					>
-						<img class="w-16" src="~/assets/NavigationIcons/document.svg" />
+						<img class="w-16" src="~/assets/NavigationIcons/folder.svg" />
 					</NuxtLink>
 					<NuxtLink
 						class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8"
 						to="blog"
 					>
-						<img class="w-16" src="~/assets/NavigationIcons/writing.svg" />
+						<img class="w-16" src="~/assets/NavigationIcons/edit.svg" />
 					</NuxtLink>
 					<NuxtLink
 						class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3"
 						to="contact"
 					>
-						<img class="w-16" src="~/assets/NavigationIcons/message.svg" />
+						<img class="w-16" src="~/assets/NavigationIcons/mail.svg" />
 					</NuxtLink>
 				</div>
 			</nav>
