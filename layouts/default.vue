@@ -1,7 +1,7 @@
 <template>
 	<div class="nav m-auto max-w-screen-lg py-16">
 		<Navigation />
-		<div class="w-3/4 m-auto bg-white"><Nuxt /></div>
+		<div class="w-full bg-white"><Nuxt /></div>
 	</div>
 </template>
 
@@ -25,10 +25,6 @@
 		margin: 0;
 	}
 	body {
-		background-image: url('../assets/bg.jpg');
-		background-repeat: repeat, no-repeat;
-		background-size: auto, 100% 100%;
-		background-attachment: fixed;
-		overflow-y: scroll;
+		background: #282828;
 	}
 </style>
