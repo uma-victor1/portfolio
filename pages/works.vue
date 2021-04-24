@@ -1,6 +1,6 @@
 <template>
-	<div class="p-14">
-		<h1 class="pb-6 text-2xl">MY WORKS!!</h1>
+	<div class="p-8">
+		<h1 class="pb-6 text-xl">Works!</h1>
 		<p class="text-gray-500">
 			I have been working lately with vue alot. <br />Here are some of the
 			projects
