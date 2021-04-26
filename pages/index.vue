@@ -8,7 +8,11 @@
 				</div>
 			</div>
 			<div class="h-96 sm:w-1/2">
-				<img class="h-full w-full" src="../assets/my_img.jpg" alt="" />
+				<img
+					class="h-full w-full bg-cover bg-center"
+					src="../assets/my_img.jpg"
+					alt=""
+				/>
 			</div>
 		</div>
 	</div>

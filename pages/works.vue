@@ -19,7 +19,12 @@
 </template>
 
 <script>
-	export default {}
+	export default {
+		async asyncData($axios) {
+			const repos = await $axios.$get('/')
+			return { repos }
+		}
+	}
 </script>
 
 <style></style>
