@@ -1,7 +1,9 @@
 <template>
 	<div class="p-8">
 		<h1 class="pb-6 text-3xl font-semibold text-gray-800">Projects</h1>
-		<div><Projects v-for="(repo, i) in repos" :key="i" :project="repo" /></div>
+		<div>
+			<Projects v-for="(repo, i) in repos" :key="i" :project="repo" />
+		</div>
 		<h1 class="pb-6 text-3xl font-semibold text-gray-800">Works Experience</h1>
 		<div class="container mx-auto w-full h-full">
 			<div class="relative wrap overflow-hidden p-10 h-full">
@@ -13,14 +15,14 @@
 				<div
 					class="mb-8 flex justify-between items-center w-full right-timeline"
 				>
-					<div class="order-1 w-5/12"></div>
+					<div class="order-1 sm:w-5/1"></div>
 					<div
 						class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full"
 					>
 						<h1 class="mx-auto font-semibold text-lg text-white">1</h1>
 					</div>
 					<div
-						class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4"
+						class="order-1 bg-gray-400 rounded-lg shadow-xl sm:w-5/12 px-6 py-4"
 					>
 						<h3 class="mb-3 font-bold text-gray-800 text-xl">Limelight devs</h3>
 						<p
@@ -37,13 +39,15 @@
 				<div
 					class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline"
 				>
-					<div class="order-1 w-5/12"></div>
+					<div class="order-1 sm:w-5/1"></div>
 					<div
 						class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full"
 					>
 						<h1 class="mx-auto text-white font-semibold text-lg">2</h1>
 					</div>
-					<div class="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+					<div
+						class="order-1 bg-red-400 rounded-lg shadow-xl sm:w-5/12 px-6 py-4"
+					>
 						<h3 class="mb-3 font-bold text-white text-xl">Lorem Ipsum</h3>
 						<p
 							class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100"
@@ -60,14 +64,14 @@
 				<div
 					class="mb-8 flex justify-between items-center w-full right-timeline"
 				>
-					<div class="order-1 w-5/12"></div>
+					<div class="order-1 sm:w-5/1"></div>
 					<div
 						class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full"
 					>
 						<h1 class="mx-auto font-semibold text-lg text-white">3</h1>
 					</div>
 					<div
-						class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4"
+						class="order-1 bg-gray-400 rounded-lg shadow-xl sm:w-5/1 px-6 py-4"
 					>
 						<h3 class="mb-3 font-bold text-gray-800 text-xl">
 							Wheather Open source
@@ -85,13 +89,15 @@
 				<div
 					class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline"
 				>
-					<div class="order-1 w-5/12"></div>
+					<div class="order-1 sm:w-5/1"></div>
 					<div
 						class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full"
 					>
 						<h1 class="mx-auto text-white font-semibold text-lg">4</h1>
 					</div>
-					<div class="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+					<div
+						class="order-1 bg-red-400 rounded-lg shadow-xl sm:w-5/1 px-6 py-4"
+					>
 						<h3 class="mb-3 font-bold text-white text-xl">Technical Writer</h3>
 						<p
 							class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100"
