@@ -1,5 +1,7 @@
 <template>
 	<div class="p-8">
+		<h1 class="pb-6 text-3xl font-semibold text-gray-800">Projects</h1>
+		<div><Projects v-for="(repo, i) in repos" :key="i" :project="repo" /></div>
 		<h1 class="pb-6 text-3xl font-semibold text-gray-800">Works Experience</h1>
 		<div class="container mx-auto w-full h-full">
 			<div class="relative wrap overflow-hidden p-10 h-full">
@@ -24,10 +26,9 @@
 						<p
 							class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100"
 						>
-							Lorem Ipsum is simply dummy text of the printing and typesetting
-							industry. Lorem Ipsum has been the industry's standard dummy text
-							ever since the 1500s, when an unknown printer took a galley of
-							type and scrambled it to make a type specimen book.
+							I worked on Improving the frontend of the limelight website,
+							Building reusable components and handling edge cases and
+							responsiveness of the site
 						</p>
 					</div>
 				</div>
@@ -68,14 +69,14 @@
 					<div
 						class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4"
 					>
-						<h3 class="mb-3 font-bold text-gray-800 text-xl">Lorem Ipsum</h3>
+						<h3 class="mb-3 font-bold text-gray-800 text-xl">
+							Wheather Open source
+						</h3>
 						<p
 							class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100"
 						>
-							Lorem Ipsum is simply dummy text of the printing and typesetting
-							industry. Lorem Ipsum has been the industry's standard dummy text
-							ever since the 1500s, when an unknown printer took a galley of
-							type and scrambled it to make a type specimen book.
+							I contributed to the website by building website interfaces and
+							consuming API for realtime updated information
 						</p>
 					</div>
 				</div>
@@ -91,7 +92,7 @@
 						<h1 class="mx-auto text-white font-semibold text-lg">4</h1>
 					</div>
 					<div class="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-						<h3 class="mb-3 font-bold text-white text-xl">Lorem Ipsum</h3>
+						<h3 class="mb-3 font-bold text-white text-xl">Technical Writer</h3>
 						<p
 							class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100"
 						>
