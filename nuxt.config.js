@@ -43,7 +43,11 @@ export default {
 		'@nuxtjs/pwa',
 		'@nuxt/content'
 	],
-
+	publicRuntimeConfig: {
+		axios: {
+		  baseURL: process.env.NODE_ENV === 'production' ? process.env.BASE_URL || 'http://localhost:8000/' : 'http://localhost:8000/',
+		}
+	  },
 	// Axios module configuration: https://go.nuxtjs.dev/config-axios
 	axios: {
 		baseURL: process.env.BASE_URL // Used as fallback if no runtime config is provided
